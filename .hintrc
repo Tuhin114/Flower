@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "development"
+  ],
+  "hints": {
+    "compat-api/css": [
+      "default",
+      {
+        "ignore": [
+          "-webkit-mask-image"
+        ]
+      }
+    ],
+    "no-inline-styles": "off",
+    "meta-viewport": "off"
+  }
+}
